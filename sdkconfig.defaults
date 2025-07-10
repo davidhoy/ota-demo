@@ -1,0 +1,15 @@
+# Default sdkconfig parameters to use the OTA
+# partition table layout, with a 4MB flash size
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
+CONFIG_PARTITION_TABLE_TWO_OTA=y
+
+
+
+# Enable FreeRTOS stats formatting functions, needed for 'tasks' command
+CONFIG_FREERTOS_USE_TRACE_FACILITY=y
+CONFIG_FREERTOS_USE_STATS_FORMATTING_FUNCTIONS=y
+
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
+
+# On chips with USB serial, disable secondary console which does not make sense when using console component
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y

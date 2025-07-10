@@ -1,0 +1,4 @@
+# Default sdkconfig parameters to use the OTA
+# partition table layout, with a 8MB flash size
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
+CONFIG_PARTITION_TABLE_TWO_OTA=y

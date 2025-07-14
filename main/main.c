@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-//#include "driver/gpio.h"
 #include "esp_log.h"
 #include "esp_system.h"  
 #include "esp_mac.h"            // Needed for esp_efuse_mac_get_default()
